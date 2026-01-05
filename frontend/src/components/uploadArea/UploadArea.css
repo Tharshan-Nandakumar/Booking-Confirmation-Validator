@@ -1,0 +1,26 @@
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 2px dashed #e6eef8;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(180deg, #fff, #fbfdff);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.file-input {
+  display: none;
+}
+
+.context-input {
+  margin-top: 1rem;
+  width: 100%;
+}

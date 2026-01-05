@@ -1,0 +1,63 @@
+.stream-log {
+  max-height: 160px;
+  overflow: auto;
+  background: #f7fbff;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.log-row {
+  display: flex;
+  gap: 8px;
+  padding: 4px 0;
+  align-items: center;
+}
+
+.log-info {
+  color: #0f172a;
+}
+
+.log-time {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table th,
+.table td {
+  padding: 8px 6px;
+  border-bottom: 1px solid #eef2f7;
+  text-align: left;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.badge.match {
+  background: #e6ffef;
+  color: #056f3b;
+}
+
+.badge.mismatch {
+  background: #fff4f4;
+  color: #b91c1c;
+}
+
+.badge.unclear {
+  background: #fff8e6;
+  color: #854d0e;
+}

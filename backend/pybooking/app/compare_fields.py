@@ -1,5 +1,5 @@
 from collections import defaultdict
-from .models.models import (
+from app.models.models import (
     ComparisonItem,
     ExtractedFields,
     MatchStatus,

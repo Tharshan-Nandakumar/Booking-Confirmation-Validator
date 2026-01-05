@@ -6,9 +6,9 @@ from typing import AsyncGenerator
 from fastapi import APIRouter, UploadFile, File, Form
 from fastapi.responses import StreamingResponse
 
-from ..llm_client import llm_stream
-from ..compare_fields import compare_fields
-from ..models.models import MatchStatus, StreamEvent, ScreenshotResult
+from app.llm_client import llm_stream
+from app.compare_fields import compare_fields
+from app.models.models import MatchStatus, StreamEvent, ScreenshotResult
 
 
 router = APIRouter(
